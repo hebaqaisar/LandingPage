@@ -31,11 +31,20 @@
     flex-wrap: wrap;
 }
 
+.content li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+
 .page{
     text-decoration-line: none;
     color: #222;
     font-size: 14px;
     font-weight: 400;
+    align-items: center;
 }
 
 .content li{
